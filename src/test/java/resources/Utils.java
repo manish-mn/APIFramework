@@ -39,6 +39,7 @@ public class Utils
    public Object getJSONValue(Response res,String key)
    {
 	   String responseAsString=res.asString();
+	   System.out.println(responseAsString);
 	   JsonPath jp=new JsonPath(responseAsString);
 	   return jp.get(key);
    }
