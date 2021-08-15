@@ -13,11 +13,11 @@ Body:
 {
     "name": "Book1",
     "isbn": "mntd5",
-    "aisle": "10",
+    "aisle": "10.48429131851645946",
     "author": "manish"
 }
-HTTP/1.1 404 Not Found
-Date: Tue, 10 Aug 2021 14:18:55 GMT
+HTTP/1.1 200 OK
+Date: Sun, 15 Aug 2021 13:21:47 GMT
 Server: Apache
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -29,7 +29,8 @@ Transfer-Encoding: chunked
 Content-Type: application/json;charset=UTF-8
 
 {
-    "msg": "Add Book operation failed, looks like the book already exists"
+    "Msg": "successfully added",
+    "ID": "mntd510.48429131851645946"
 }
 Request method:	POST
 Request URI:	http://216.10.245.166/Library/Addbook.php
@@ -46,11 +47,11 @@ Body:
 {
     "name": "Book2",
     "isbn": "mntd5",
-    "aisle": "20",
+    "aisle": "20.9742694549764227",
     "author": "manish"
 }
-HTTP/1.1 404 Not Found
-Date: Tue, 10 Aug 2021 14:18:56 GMT
+HTTP/1.1 200 OK
+Date: Sun, 15 Aug 2021 13:21:48 GMT
 Server: Apache
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -62,7 +63,8 @@ Transfer-Encoding: chunked
 Content-Type: application/json;charset=UTF-8
 
 {
-    "msg": "Add Book operation failed, looks like the book already exists"
+    "Msg": "successfully added",
+    "ID": "mntd520.9742694549764227"
 }
 Request method:	POST
 Request URI:	http://216.10.245.166/Library/Addbook.php
@@ -79,11 +81,11 @@ Body:
 {
     "name": "Book3",
     "isbn": "mntd5",
-    "aisle": "30",
+    "aisle": "30.551085542517948",
     "author": "manish"
 }
-HTTP/1.1 404 Not Found
-Date: Tue, 10 Aug 2021 14:18:56 GMT
+HTTP/1.1 200 OK
+Date: Sun, 15 Aug 2021 13:21:48 GMT
 Server: Apache
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -95,7 +97,8 @@ Transfer-Encoding: chunked
 Content-Type: application/json;charset=UTF-8
 
 {
-    "msg": "Add Book operation failed, looks like the book already exists"
+    "Msg": "successfully added",
+    "ID": "mntd530.551085542517948"
 }
 Request method:	POST
 Request URI:	http://216.10.245.166/Library/Addbook.php
@@ -111,12 +114,12 @@ Multiparts:		<none>
 Body:
 {
     "name": "Fordelete",
-    "isbn": "fd0.0758152647245307",
-    "aisle": "10",
+    "isbn": "fd0.28284809066128813",
+    "aisle": "10.5277382109249925",
     "author": "manish"
 }
 HTTP/1.1 200 OK
-Date: Tue, 10 Aug 2021 14:18:56 GMT
+Date: Sun, 15 Aug 2021 13:21:48 GMT
 Server: Apache
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -129,7 +132,7 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "Msg": "successfully added",
-    "ID": "fd0.075815264724530710"
+    "ID": "fd0.2828480906612881310.5277382109249925"
 }
 Request method:	POST
 Request URI:	http://216.10.245.166/Library/DeleteBook.php
@@ -144,10 +147,10 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "ID": "fd0.075815264724530710"
+    "ID": "fd0.2828480906612881310.5277382109249925"
 }
 HTTP/1.1 200 OK
-Date: Tue, 10 Aug 2021 14:18:56 GMT
+Date: Sun, 15 Aug 2021 13:21:48 GMT
 Server: Apache
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -161,3 +164,69 @@ Content-Type: application/json;charset=UTF-8
 {
     "msg": "book is successfully deleted"
 }
+Request method:	POST
+Request URI:	http://216.10.245.166/Library/Addbook.php
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "ForGetting",
+    "isbn": "get",
+    "aisle": "120.24537132485908408",
+    "author": "Manish"
+}
+HTTP/1.1 200 OK
+Date: Sun, 15 Aug 2021 13:21:48 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "Msg": "successfully added",
+    "ID": "get120.24537132485908408"
+}
+Request method:	GET
+Request URI:	http://216.10.245.166/Library/GetBook.php?ID=get120.24537132485908408
+Proxy:			<none>
+Request params:	<none>
+Query params:	ID=get120.24537132485908408
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 15 Aug 2021 13:21:48 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+[
+    {
+        "book_name": "ForGetting",
+        "isbn": "get",
+        "aisle": "120",
+        "author": "Manish"
+    }
+]

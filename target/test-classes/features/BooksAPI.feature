@@ -14,8 +14,15 @@ Feature: Vrify Books API
       | Book3 | mntd5 |     3 | manish |
 
   @DeleteBook
-  Scenario Outline: Verify delete book API
+  Scenario: Verify delete book API
     Given Delete book api payload
     When The user executes "DeleteBookAPI" with "POST" request
     Then the user is returned with status code 200
     And the "msg" in response body is "book is successfully deleted"
+
+  @GetBook
+  Scenario: Verify Get book API
+    Given Book "ID"
+    When The user executes "GetBookAPI" with "GET" request
+    Then the user is returned with status code 200
+    And then the "book_name" in response body is "ForGetting"

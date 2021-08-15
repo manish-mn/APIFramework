@@ -3,7 +3,8 @@ package resources;
 public enum APIResources 
 {
 	AddBookAPI("Addbook.php"),
-	DeleteBookAPI("DeleteBook.php");
+	DeleteBookAPI("DeleteBook.php"),
+	GetBookAPI("GetBook.php");
 
 	private String resource;
 	APIResources(String resource) 

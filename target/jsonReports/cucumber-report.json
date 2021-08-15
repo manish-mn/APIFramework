@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-08-10T14:18:41.241Z",
+        "start_timestamp": "2021-08-15T13:21:27.226Z",
         "line": 12,
         "name": "Verify add book API",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1050814100,
+              "duration": 918449100,
               "status": "passed"
             },
             "line": 5,
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 737027700,
+              "duration": 724022600,
               "status": "passed"
             },
             "line": 6,
@@ -65,9 +65,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:555)\r\n\tat org.junit.Assert.assertEquals(Assert.java:542)\r\n\tat stepDefinations.BooksAPI.the_user_is_returned_with_status_code(BooksAPI.java:40)\r\n\tat ✽.the user is returned with status code 200(file:///C:/Users/nmani/Desktop/java/workspace/BooksAPIFramework/src/test/java/features/BooksAPI.feature:7)\r\n",
-              "duration": 3989000,
-              "status": "failed"
+              "duration": 1993700,
+              "status": "passed"
             },
             "line": 7,
             "name": "the user is returned with status code 200",
@@ -84,7 +83,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 441329900,
+              "status": "passed"
             },
             "line": 8,
             "name": "the \"Msg\" in response body is \"successfully added\"",
@@ -111,7 +111,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-08-10T14:18:43.115Z",
+        "start_timestamp": "2021-08-15T13:21:29.368Z",
         "line": 13,
         "name": "Verify add book API",
         "description": "",
@@ -121,7 +121,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1996300,
+              "duration": 2993700,
               "status": "passed"
             },
             "line": 5,
@@ -151,7 +151,7 @@
           },
           {
             "result": {
-              "duration": 111699900,
+              "duration": 109704900,
               "status": "passed"
             },
             "line": 6,
@@ -173,8 +173,7 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:555)\r\n\tat org.junit.Assert.assertEquals(Assert.java:542)\r\n\tat stepDefinations.BooksAPI.the_user_is_returned_with_status_code(BooksAPI.java:40)\r\n\tat ✽.the user is returned with status code 200(file:///C:/Users/nmani/Desktop/java/workspace/BooksAPIFramework/src/test/java/features/BooksAPI.feature:7)\r\n",
-              "status": "failed"
+              "status": "passed"
             },
             "line": 7,
             "name": "the user is returned with status code 200",
@@ -191,7 +190,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 13962200,
+              "status": "passed"
             },
             "line": 8,
             "name": "the \"Msg\" in response body is \"successfully added\"",
@@ -218,7 +218,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-08-10T14:18:43.233Z",
+        "start_timestamp": "2021-08-15T13:21:29.499Z",
         "line": 14,
         "name": "Verify add book API",
         "description": "",
@@ -228,7 +228,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1995000,
+              "duration": 2992900,
               "status": "passed"
             },
             "line": 5,
@@ -258,7 +258,7 @@
           },
           {
             "result": {
-              "duration": 110023100,
+              "duration": 102724800,
               "status": "passed"
             },
             "line": 6,
@@ -280,8 +280,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:555)\r\n\tat org.junit.Assert.assertEquals(Assert.java:542)\r\n\tat stepDefinations.BooksAPI.the_user_is_returned_with_status_code(BooksAPI.java:40)\r\n\tat ✽.the user is returned with status code 200(file:///C:/Users/nmani/Desktop/java/workspace/BooksAPIFramework/src/test/java/features/BooksAPI.feature:7)\r\n",
-              "status": "failed"
+              "duration": 996800,
+              "status": "passed"
             },
             "line": 7,
             "name": "the user is returned with status code 200",
@@ -298,7 +298,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 14959800,
+              "status": "passed"
             },
             "line": 8,
             "name": "the \"Msg\" in response body is \"successfully added\"",
@@ -325,17 +326,17 @@
         ]
       },
       {
-        "start_timestamp": "2021-08-10T14:18:43.349Z",
+        "start_timestamp": "2021-08-15T13:21:29.624Z",
         "line": 17,
         "name": "Verify delete book API",
         "description": "",
         "id": "vrify-books-api;verify-delete-book-api",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 567087100,
+              "duration": 124667600,
               "status": "passed"
             },
             "line": 18,
@@ -347,7 +348,7 @@
           },
           {
             "result": {
-              "duration": 102466300,
+              "duration": 99732700,
               "status": "passed"
             },
             "line": 19,
@@ -369,6 +370,7 @@
           },
           {
             "result": {
+              "duration": 1000800,
               "status": "passed"
             },
             "line": 20,
@@ -386,7 +388,7 @@
           },
           {
             "result": {
-              "duration": 11018500,
+              "duration": 17948600,
               "status": "passed"
             },
             "line": 21,
@@ -410,6 +412,100 @@
         "tags": [
           {
             "name": "@DeleteBook"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-15T13:21:29.871Z",
+        "line": 24,
+        "name": "Verify Get book API",
+        "description": "",
+        "id": "vrify-books-api;verify-get-book-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 129924000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Book \"ID\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ID\"",
+                  "offset": 5
+                }
+              ],
+              "location": "stepDefinations.BooksAPI.book(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149302600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "The user executes \"GetBookAPI\" with \"GET\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetBookAPI\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinations.BooksAPI.the_user_executes_with_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user is returned with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefinations.BooksAPI.the_user_is_returned_with_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "then the \"book_name\" in response body is \"ForGetting\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"book_name\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"ForGetting\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinations.BooksAPI.then_the_in_response_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GetBook"
           }
         ]
       }
