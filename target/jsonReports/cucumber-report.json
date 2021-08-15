@@ -1,0 +1,424 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-10T14:18:41.241Z",
+        "line": 12,
+        "name": "Verify add book API",
+        "description": "",
+        "id": "vrify-books-api;verify-add-book-api;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1050814100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Add book api payload with \"Book1\" \"mntd5\" \"1\" \"manish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Book1\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"mntd5\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"manish\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinations.BooksAPI.add_book_api_payload_with(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 737027700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user executes \"AddBookAPI\" with \"POST\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddBookAPI\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinations.BooksAPI.the_user_executes_with_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:555)\r\n\tat org.junit.Assert.assertEquals(Assert.java:542)\r\n\tat stepDefinations.BooksAPI.the_user_is_returned_with_status_code(BooksAPI.java:40)\r\n\tat ✽.the user is returned with status code 200(file:///C:/Users/nmani/Desktop/java/workspace/BooksAPIFramework/src/test/java/features/BooksAPI.feature:7)\r\n",
+              "duration": 3989000,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "the user is returned with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefinations.BooksAPI.the_user_is_returned_with_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "the \"Msg\" in response body is \"successfully added\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Msg\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"successfully added\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinations.BooksAPI.the_in_response_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddBook"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-10T14:18:43.115Z",
+        "line": 13,
+        "name": "Verify add book API",
+        "description": "",
+        "id": "vrify-books-api;verify-add-book-api;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1996300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Add book api payload with \"Book2\" \"mntd5\" \"2\" \"manish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Book2\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"mntd5\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"manish\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinations.BooksAPI.add_book_api_payload_with(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111699900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user executes \"AddBookAPI\" with \"POST\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddBookAPI\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinations.BooksAPI.the_user_executes_with_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:555)\r\n\tat org.junit.Assert.assertEquals(Assert.java:542)\r\n\tat stepDefinations.BooksAPI.the_user_is_returned_with_status_code(BooksAPI.java:40)\r\n\tat ✽.the user is returned with status code 200(file:///C:/Users/nmani/Desktop/java/workspace/BooksAPIFramework/src/test/java/features/BooksAPI.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "the user is returned with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefinations.BooksAPI.the_user_is_returned_with_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "the \"Msg\" in response body is \"successfully added\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Msg\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"successfully added\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinations.BooksAPI.the_in_response_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddBook"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-10T14:18:43.233Z",
+        "line": 14,
+        "name": "Verify add book API",
+        "description": "",
+        "id": "vrify-books-api;verify-add-book-api;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1995000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Add book api payload with \"Book3\" \"mntd5\" \"3\" \"manish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Book3\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"mntd5\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"manish\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinations.BooksAPI.add_book_api_payload_with(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 110023100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user executes \"AddBookAPI\" with \"POST\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddBookAPI\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinations.BooksAPI.the_user_executes_with_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:555)\r\n\tat org.junit.Assert.assertEquals(Assert.java:542)\r\n\tat stepDefinations.BooksAPI.the_user_is_returned_with_status_code(BooksAPI.java:40)\r\n\tat ✽.the user is returned with status code 200(file:///C:/Users/nmani/Desktop/java/workspace/BooksAPIFramework/src/test/java/features/BooksAPI.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "the user is returned with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefinations.BooksAPI.the_user_is_returned_with_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "the \"Msg\" in response body is \"successfully added\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Msg\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"successfully added\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinations.BooksAPI.the_in_response_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddBook"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-10T14:18:43.349Z",
+        "line": 17,
+        "name": "Verify delete book API",
+        "description": "",
+        "id": "vrify-books-api;verify-delete-book-api",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 567087100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Delete book api payload",
+            "match": {
+              "location": "stepDefinations.BooksAPI.delete_book_api_payload()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 102466300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The user executes \"DeleteBookAPI\" with \"POST\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeleteBookAPI\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinations.BooksAPI.the_user_executes_with_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user is returned with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefinations.BooksAPI.the_user_is_returned_with_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11018500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the \"msg\" in response body is \"book is successfully deleted\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"msg\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"book is successfully deleted\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinations.BooksAPI.the_in_response_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteBook"
+          }
+        ]
+      }
+    ],
+    "name": "Vrify Books API",
+    "description": "",
+    "id": "vrify-books-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/BooksAPI.feature",
+    "tags": []
+  }
+]

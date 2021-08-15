@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.Options.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 6, Errors: 0, Skipped: 3, Time elapsed: 3.38 sec <<< FAILURE!
+the user is returned with status code 200(Verify add book API #1)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at stepDefinations.BooksAPI.the_user_is_returned_with_status_code(BooksAPI.java:40)
+	at ?.the user is returned with status code 200(file:///C:/Users/nmani/Desktop/java/workspace/BooksAPIFramework/src/test/java/features/BooksAPI.feature:7)
+
+Verify add book API #1  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at stepDefinations.BooksAPI.the_user_is_returned_with_status_code(BooksAPI.java:40)
+	at ?.the user is returned with status code 200(file:///C:/Users/nmani/Desktop/java/workspace/BooksAPIFramework/src/test/java/features/BooksAPI.feature:7)
+
+the user is returned with status code 200(Verify add book API #2)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at stepDefinations.BooksAPI.the_user_is_returned_with_status_code(BooksAPI.java:40)
+	at ?.the user is returned with status code 200(file:///C:/Users/nmani/Desktop/java/workspace/BooksAPIFramework/src/test/java/features/BooksAPI.feature:7)
+
+Verify add book API #2  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at stepDefinations.BooksAPI.the_user_is_returned_with_status_code(BooksAPI.java:40)
+	at ?.the user is returned with status code 200(file:///C:/Users/nmani/Desktop/java/workspace/BooksAPIFramework/src/test/java/features/BooksAPI.feature:7)
+
+the user is returned with status code 200(Verify add book API #3)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at stepDefinations.BooksAPI.the_user_is_returned_with_status_code(BooksAPI.java:40)
+	at ?.the user is returned with status code 200(file:///C:/Users/nmani/Desktop/java/workspace/BooksAPIFramework/src/test/java/features/BooksAPI.feature:7)
+
+Verify add book API #3  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at stepDefinations.BooksAPI.the_user_is_returned_with_status_code(BooksAPI.java:40)
+	at ?.the user is returned with status code 200(file:///C:/Users/nmani/Desktop/java/workspace/BooksAPIFramework/src/test/java/features/BooksAPI.feature:7)
+
