@@ -14,7 +14,11 @@ import resources.Utils;
 
 import static io.restassured.RestAssured.*;
 import static org.junit.Assert.*;
+/**
 
+@author -- Manish Nair[MN]
+
+*/
 public class BooksAPI extends Utils
 {
 	RequestSpecification req;
